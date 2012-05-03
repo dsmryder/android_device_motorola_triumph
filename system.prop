@@ -56,7 +56,7 @@ service.config.wifi=0
 wimax.interface=wm0
 
 lpa.decode=false
-ro.hdmi.enable=false
+ro.hdmi.enable=true
 
 ro.use_data_netmgrd=true
 ro.config.ehrpd=true

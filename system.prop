@@ -47,7 +47,7 @@ ro.telephony.gsm.spn.shortname=true
 ro.cdma.home.operator.numeric=310053
 
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=90
+wifi.supplicant_scan_interval=180
 
 service.config.gsensor_cal=1
 libcamera.orientation=0
@@ -70,3 +70,12 @@ ro.tethering.kb_disconnect=1
 
 ro.ril.def.agps.mode=2
 ro.ril.def.agps.feature=1
+
+#Improve Media & Streaming
+video.accelerate.hw=1 
+ro.media.enc.jpeg.quality=100
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
